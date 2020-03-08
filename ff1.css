@@ -408,6 +408,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
 }
 
 #bahraingp {
@@ -419,6 +420,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
 }
 
 #vietnamgp {
@@ -430,6 +432,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
     
 }
 #chinagp {
@@ -441,7 +444,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
-    
+    overflow:hidden;
 }
 #netherlandsgp {
     width: 130px;
@@ -452,6 +455,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
 }
 #spaingp {
     width: 130px;
@@ -462,6 +466,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
 }
 #monacogp {
     width: 130px;
@@ -472,6 +477,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
 }
 #azerbaijangp {
     width: 130px;
@@ -482,6 +488,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
 }
 #canadagp {
     width: 130px;
@@ -492,6 +499,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
 }
 #francegp {
     width: 130px;
@@ -502,6 +510,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
 }
 #austriagp {
     width: 130px;
@@ -512,6 +521,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
 }
 #gbrgp {
     width: 130px;
@@ -522,6 +532,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
 }
 
 #hungarygp {
@@ -533,6 +544,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
 }
 #belgiumgp {
     width: 130px;
@@ -543,6 +555,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
 }
 #italygp {
     width: 130px;
@@ -553,6 +566,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
  
 }
 #singaporegp {
@@ -564,6 +578,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
     
 }
 #russiagp {
@@ -575,6 +590,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
 }
 #japangp {
     width: 130px;
@@ -585,6 +601,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
 }
 #usagp {
     width: 130px;
@@ -595,6 +612,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
 }
 #mexicogp {
     width: 130px;
@@ -605,6 +623,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
 }
 #brazilgp {
     width: 130px;
@@ -615,6 +634,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
 }
 #abugp {
     width: 130px;
@@ -625,6 +645,7 @@ nav ul li {
     border-bottom-right-radius: 5px;
     margin: 5px;
     cursor: pointer;
+    overflow:hidden;
 }
 
 #gpinfo {
