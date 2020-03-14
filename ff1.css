@@ -1,0 +1,1176 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-shadow: border-box;
+}
+
+nav {
+    position:fixed;
+    background: rgba(13, 13, 13, 0.6);
+    height: 70px;
+    width: 100%;
+    z-index:3;
+}
+   
+a.f1logo {
+    color: seashell;
+    font-weight: 1000;
+    font-size: 46px;
+    padding: 0 20;
+    line-height: 70px;
+    font-family: 'Codystar', sans-serif;
+}
+    
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+    
+nav ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5;
+    padding-right: 10px;
+}
+
+.navbutton {
+    font-size: 50px;
+    color: rgb(138, 191, 115);
+    float: right;
+    line-height: 75px;
+    margin-right: 30px;
+    margin-top: 10px;
+    display: none;
+    cursor: pointer;
+    
+}
+
+#chbx {
+    display: none;
+}
+
+
+    
+#boxx {
+    width: 80%;
+    height: 48px;
+    background: black;
+    border-radius: 5px;
+    
+}
+
+
+#mtavari {
+    color: rgb(138, 191, 115);
+    font-family: 'Audiowide', cursive;
+    font-size: 160%;
+}
+
+#mtavari:hover {
+    color: orange;
+    transition-duration: 0.5s;
+}
+
+
+
+#homeinfo {
+    height: auto;
+    width: auto;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    font-size: 270%;
+    margin-top: 0em;
+    font-family: 'Oxanium', serif ;
+    color: black;
+
+}
+
+#homebtn {
+    background-color: orange;
+    color: black;
+    border-radius: 4px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size:180%
+}
+
+#teamsdiv {
+    display: inline-block;
+    z-index:1;
+    position: relative;
+}
+
+
+
+
+.container {
+    width: 360px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+  }
+  
+  #imag {
+    width: 360px;
+    height: 100%;
+    display: block;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid black;
+
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.85;
+    cursor: pointer;
+  }
+  
+  .text {
+    color: white;
+    font-family: 'Orbitron', serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+
+#driversheader {
+    text-align: left;
+    width: 68%;
+    height: auto;
+    border-top:black solid 8px;
+    border-right:black solid 8px;
+    border-top-right-radius: 30px;
+}
+
+#drivers2020 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 45px;
+}
+
+#drivers2020text {
+    column-count: 3;
+    font-size: 14px;
+    font-family: 'Krona One', sans-serif;
+}
+
+#driversdiv {
+    width: auto;
+    height:auto;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 0.6%;
+
+}
+
+
+
+#driverimg {
+    border-radius: 6px;
+    max-height: 235px;
+    max-height: 270px;
+    border: 2px solid black;
+}
+
+#driverimg:hover {
+    border-right:red solid 6px;
+    border-top:red solid 6px;
+    border-top-right-radius: 20px;
+    transition: 0.5s;
+}
+
+
+
+#driversinfo {
+    display: inline-block;
+    background: rgb(193, 244, 250);
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(44, 3, 0);
+    text-align: justify;
+}
+
+#hamimg {
+    border-radius: 5px;
+}
+
+#drinfotext {
+    font-family: 'Spartan', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sponsorlide {
+    width: 70%;
+    height: 600px;
+    position: relative;
+    border-bottom-right-radius: 30px;
+    border-right: 6px solid black;
+    border-bottom: 6px solid black;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255, 0.8);
+    text-align: left;
+}
+
+#dhl {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: 3s;
+}
+
+#heineken {
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: 3s;
+}
+
+#pirelli {
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: 3s;
+}
+
+#rolex {
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: 3s;
+}
+
+#emirates {
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: 3s;
+}
+
+
+#partnerstext {
+    font-size: 26px;
+    font-family: 'Open Sans Condensed', serif;
+}
+
+#partnersimg {
+    border-bottom-right-radius: 16px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+
+}
+
+
+#partnersbtn {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    cursor: pointer;
+}
+
+#prlogoimg {
+    height: 70px;
+    width: 150px;
+}
+
+
+#driverteams {
+    display: inline-block;
+    margin: 9px;
+    cursor: pointer;
+    border-left: 1px solid black;
+
+}
+
+#driverteams:hover {
+    border-left: 1px solid white;
+    transition: 1s;
+}
+
+#driteampic {
+    width: 100px;
+    height: 45px;
+}
+
+
+
+
+
+#fullshedule {
+    width: auto;
+    height: 570px;
+    background-color: #01001c;
+    white-space: nowrap;
+    scrollbar-width: 0;
+    overflow-x: scroll;
+    text-align: center;
+}
+
+
+
+#australiagp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#bahraingp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#vietnamgp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+#chinagp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+#netherlandsgp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+#spaingp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+#monacogp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+#azerbaijangp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+#canadagp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+#francegp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+#austriagp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+#gbrgp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#hungarygp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+#belgiumgp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+#italygp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+ 
+}
+#singaporegp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+#russiagp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+#japangp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+#usagp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+#mexicogp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+#brazilgp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+#abugp {
+    width: 130px;
+    height: 480px;
+    display: inline-block;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    border-bottom-right-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#gpinfo {
+    color: slategrey;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+
+#flags {
+    width: 65px;
+    height: 40px;
+    border-radius: 6px;
+    border: grey 1px solid;
+}
+
+#gpcountry {
+    color: white;
+    font-size: 20px;
+    font-family: "Krona One", serif;
+}
+
+#gpricxv {
+    color: white;
+    font-size: 34px;
+    font-family: "Oxanium", serif;
+}
+
+#gpmonth {
+    color: white;
+    font-size: 24px;
+    font-family: "Oxanium", serif;
+}
+
+
+
+#ausinfo {
+    display: none;
+    transition-duration: 2s;
+}
+#bahinfo {
+    display: none;
+}
+#vieinfo {
+    display: none;
+}
+#chiinfo {
+    display: none;
+}
+#netinfo {
+    display: none;
+}
+#spainfo {
+    display: none;
+}
+#moninfo {
+    display: none;
+}
+#azeinfo {
+    display: none;
+}
+#caninfo {
+    display: none;
+}
+#frainfo {
+    display: none;
+}
+#autinfo {
+    display: none;
+}
+#gbrinfo {
+    display: none;
+}
+#huninfo {
+    display: none;
+}
+#belinfo {
+    display: none;
+}
+#itainfo {
+    display: none;
+}
+#sininfo {
+    display: none;
+}
+#rusinfo {
+    display: none;
+}
+#japinfo {
+    display: none;
+}
+#usainfo {
+    display: none;
+}
+#mexinfo {
+    display: none;
+}
+#brainfo {
+    display: none;
+}
+#abuinfo {
+    display: none;
+}
+
+
+#gpbtn {
+    width: 100px;
+    height: 24px;
+    border: 1px white solid;
+    border-radius: 3px;
+    background-color: rgb(7, 61, 7);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 16px;
+    cursor: pointer;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5p orange; 
+    border-radius: 8px;
+    cursor: pointer;
+  }
+   
+ 
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 119, 83);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+
+  #reg {
+      width: 24%;
+      height: 700px;
+      border: 2px solid black;
+      margin: 0.5%;
+      display: inline-block;
+      overflow: hidden;
+      background-color: white;
+      text-align: justify;
+  }
+
+  #reg:hover {
+      border: 2px solid red;
+      transition-duration: 1s;
+      background-color: black;
+      color: white;
+  }
+
+  #reg:hover > #regtext {
+      color: white;
+      transition-duration: 1s;
+  }
+
+  #reg:hover > #regyear {
+    color: white;
+    transition-duration: 1s;
+}
+
+
+  #regyear {
+      font-size: 40px;
+      color: black;
+      font-family: serif;
+
+  }
+
+  #regtext {
+    font-size: 20px;
+    color: black;
+    font-family: fantasy;
+
+  }
+
+
+
+#facebk {
+    display: inline-block;
+    color: royalblue;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+#instagram {
+    display: inline-block;
+    padding-left: 70px;
+    color: #c35fc9;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+#gmail {
+    display: inline-block;
+    padding-left: 70px;
+    color: #f92d2d;
+    font-size: 80px;
+    cursor: pointer;
+    
+}
+
+#youtube {
+    display: inline-block;
+    padding-left: 70px;
+    color: #c30000;
+    font-size: 80px;
+    cursor: pointer;
+    
+}
+
+#twitter {
+    display: inline-block;
+    padding-left: 70px;
+    color: #1986ff;
+    font-size: 80px;
+    cursor: pointer;
+    
+}
+
+#facebk:hover {
+    font-size: 95px;
+    transition: 1s;
+}
+
+#instagram:hover {
+    font-size: 95px;
+    transition: 1s;
+}
+
+#gmail:hover {
+    font-size: 95px;
+    transition: 1s;
+}
+
+#youtube:hover {
+    font-size: 95px;
+    transition: 1s;
+}
+
+#twitter:hover {
+    font-size: 95px;
+    transition: 1s;
+}
+
+#contacttext {
+    color: white;
+    font-size: 20px;
+    font-family: 'Audiowide', serif;
+    background-color: black;
+}
+
+#sgagoshidze {
+    color: black;
+    font-size: 30px;
+    font-family: 'Orbitron', serif;
+}
+
+
+
+
+
+
+  
+@media (max-width: 1665px){
+
+    #regyear {
+        font-size: 40px;   
+    }
+  
+    #regtext {
+      font-size: 16px;
+    }
+
+
+}
+
+
+
+
+
+@media (max-width: 1390px){
+    
+    
+    .navbutton {
+        display: block;
+    }
+    
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: grey;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    
+    nav ul li a {
+        font-size: 2vw;
+    }
+    
+    #chbx:checked ~ ul{
+        left: 0;
+        
+    }
+
+    #hamimg {
+        border-radius: 5px;
+        width: 540px;
+        height: 400px;
+    }
+    
+
+
+
+}
+
+
+
+@media (max-width: 1220px){
+
+    #driversheader {
+        text-align: left;
+        width: 68%;
+    }
+
+
+    #drivers2020 {
+        font-family: 'Krona One', sans-serif;
+        font-size: 35px;
+    }
+    
+    #drivers2020text {
+        column-count: 3;
+        font-size: 12px;
+        font-family: 'Krona One', sans-serif;
+    }
+
+    #reg {
+        width: 80%;
+        height: 200px;
+        display: block;
+        overflow: hidden;
+    }
+
+    #regyear {
+        font-size: 30px;   
+    }
+  
+    #regtext {
+      font-size: 15px;
+    }
+
+    #driteampic {
+        width: 86px;
+        height: 35px;
+    }
+    
+
+}
+
+
+
+
+
+
+@media (max-width: 1190px){
+    
+        #partnersimg {
+            width: 50%;
+            height: 18%;
+            border-bottom-right-radius: 16px;
+            transition: 3s;
+        }
+
+}
+
+
+@media (max-width: 1110px){
+
+#driteampic {
+    width: 70px;
+    height: 28px;
+}
+
+}
+
+
+@media (max-width: 940px){
+
+    #driteampic {
+        width: 130px;
+        height: 60px;
+    }
+    
+    }
+
+
+@media (max-width: 890px){
+    #prlogoimg {
+        height: 35px;
+        width: 105px;
+        transition: 2s;
+    }
+
+    #driteampic {
+        width: 56px;
+        height: 22px;
+    }
+    
+
+}
+
+
+
+
+
+@media (max-width: 800px){
+    
+         #partnerstext {
+            font-size: 18px;
+            font-family: 'Open Sans Condensed', serif;
+            transition: 0.6s;
+        }
+
+        #regyear {
+            font-size: 20px;   
+        }
+      
+        #regtext {
+          font-size: 10px;
+        }
+
+        #facebk {
+            display: block;
+        }
+        
+        #instagram {
+            display: block;
+            padding-left: 0;
+            padding-top: 10px;
+
+        }
+        
+        #gmail {
+            display: block;
+            padding-left: 0;
+            padding-top: 10px;
+            
+        }
+        
+        #youtube {
+            display: block;
+            padding-left: 0;
+            padding-top: 10px;
+        }
+        
+        #twitter {
+            display: block;
+            padding-left: 0;
+            padding-top: 10px;
+        }
+
+        #hamimg {
+            border-radius: 5px;
+            width: 440px;
+            height: 380px;
+        }
+
+        #driteampic {
+            width: 110px;
+            height: 46px;
+        }
+
+        
+    
+ 
+}
+
+
+
+
+
+
+@media (max-width: 700px){
+
+    #driversheader {
+        text-align: left;
+        width: 80%;
+    }
+
+    #drivers2020 {
+        font-family: 'Krona One', sans-serif;
+        font-size: 25px;
+    }
+    
+    #drivers2020text {
+        column-count: 3;
+        font-size: 10px;
+        font-family: 'Krona One', sans-serif;
+    }
+
+    #driteampic {
+        width: 94px;
+        height: 44px;
+    }
+
+}
+
+
+@media (max-width: 670px){
+    
+
+    #partnersimg {
+        width: 40%;
+        height: 11%;
+        border-bottom-right-radius: 16px;
+        transition: 3s;
+    
+    }
+ 
+
+    #prlogoimg {
+        height: 24px;
+        width: 66px;
+        transition: 2s;
+    }
+
+    #driteampic {
+        width: 86px;
+        height: 44px;
+    }
+
+}
+
+@media (max-width: 560px){
+
+    #driteampic {
+        width: 74px;
+        height: 36px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide|IBM+Plex+Mono|Krona+One|Open+Sans+Condensed:300|Oxanium|Spartan|Unica+One&display=swap');
